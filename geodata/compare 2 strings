@@ -1,0 +1,15 @@
+prefix = ''
+
+
+        max_sentense = max(strs, key=len)
+        min_sentense = min(strs, key=len)
+        
+        
+
+        for i, o in zip(max_sentense, min_sentense):
+
+            if i == o:
+                prefix += i
+            else:
+                break
+        return prefix
